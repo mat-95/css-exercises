@@ -70,24 +70,14 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-  margin-left: 4px;
-}
-
-.warning {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 18px;
   font-weight: bold;
-}
-
-.top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex: 1;
   margin-bottom: 8px;
 }
 
