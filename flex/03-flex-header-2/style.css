@@ -54,14 +54,8 @@ ul {
   gap: 16px;
 }
 
-.logo-and-nav {
+.logo-and-nav, .user-info {
   display: flex;
   gap: 16px;
   align-items: center;
-}
-
-.user-info {
-  display: flex;
-  align-items: center;
-  gap: 16px;
 }
