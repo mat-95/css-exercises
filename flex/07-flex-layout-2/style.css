@@ -30,7 +30,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  flex: 0 0 300px;
+  flex-shrink: 0;
   padding: 16px;
 }
 
@@ -51,9 +51,10 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
@@ -66,5 +67,5 @@ a {
   padding: 48px;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 32px;
 }
